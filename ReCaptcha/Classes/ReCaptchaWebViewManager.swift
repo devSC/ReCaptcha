@@ -93,6 +93,7 @@ internal class ReCaptchaWebViewManager {
         webview.scrollView.backgroundColor = .clear
         webview.accessibilityIdentifier = "webview"
         webview.accessibilityTraits = UIAccessibilityTraits.link
+        webview.alpha = 0.01
         webview.isHidden = true
         return webview
     }()
